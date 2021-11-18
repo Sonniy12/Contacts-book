@@ -1,0 +1,62 @@
+<!DOctype html>
+<html lang="ru">
+
+<head>
+    
+    <meta charset="UTF-8" >
+    <titel>
+        Contacts book
+        <br/>
+        <br/>
+        <br/>
+    </titel>
+    <link rel="stylesheet" href="style.css">
+ 
+   
+</head>
+<body >
+    <button id="addContact">Новый контакт</button>
+    <button onclick="myFunc()">Добавить</button>
+     
+ <form method="get" action="/" id="formBook" class="_form" >
+   
+  
+  
+    <div>
+         <label for="userName">1 Имя:</label>
+
+<input type="text" name="userName" id="userName" >
+
+
+ <label for="userSurName"  > Фамилия:</label>
+
+<input type="text" name="userSurName" id="userSurName">
+
+<label for="userAge"> Возраст:</label>
+
+<input type="text" name="userAge" id="userAge">
+
+<label for="userPhone"> Телефон:</label>   		
+<input type="text" name="userPhone" id="userPhone">
+   <label > Тип:</label>
+   <select name="userType" id="">
+       <option value="Mobile">Мобильный</option>
+       <option value="Home">Домашний</option>
+      
+   </select>
+ 
+       <label> Приоритет:</label>
+       <input type="radio" name="userPriority" checked>
+    </div>
+ 	
+
+</form>
+
+
+ <!-- <script  type="module" src="lib.js" ></script>-->
+ <script src="jquery-3.6.0.min.js"></script>  
+ <script  src="script.js"></script>
+
+</body>
+<!--coment-->
+</html>

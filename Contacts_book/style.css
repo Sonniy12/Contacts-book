@@ -1,0 +1,79 @@
+
+div{height: 300px;
+    width: 90%; 
+   padding: 20px ;
+    background-color:rgb(89, 117, 143);
+color: black;
+margin-top:20px;}
+
+input {
+    height: 30px;
+    width: 80%; 
+  /*  outline: none;*/
+    outline-color:gray;
+    /*border: none;*/
+    background-color:lightblue;
+    color:black;
+    font-size: 20px;
+
+padding-left: 10px;
+margin-top: 3px;
+    
+    }
+    label
+{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    color:#f7f7f0;
+    font-size: 18px;
+}
+    body {
+        margin:0;
+        font-family:sans-serif;
+    background-color: cadetblue;}
+
+    form {
+      width: 60%;
+     
+    
+color:cornsilk;
+font-size: 25px;
+
+/*background-position:center;
+background-size:cover;*/
+
+margin-left: 5%;
+    margin-top: 10px;
+   
+    }
+    
+titel
+{
+font-size: 30px;
+margin-left: 25%;
+color:cornsilk;
+margin-top: 5%;
+}
+   #bt_del{background-color: #2e5f5c;;
+  color:cornsilk;
+width: 40px;
+height: 40px;
+margin-left: 100px;}
+    button
+   {
+    width: 20%; background-color:#587976;
+    color:beige;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 3px beige;
+    font-size: 25px;
+    margin-left: 10%;
+    position: sticky;
+    top:0;
+    bottom: 0;
+   /* transform: translate(0,2em);*/
+    
+  }
+  
